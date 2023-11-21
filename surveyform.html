@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Simple survey form</p>
+  <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your e-mail" required>
+      <label for="number" id="number-label">Number:</label>
+      <input type="number" id="number" name="number" min="0" max="100" placeholder="A number between 0 and 100">
+
+      <label for="dropdown">Sex:</label>
+      <select name="dropdown" id="dropdown">
+        <option value="male" name="dropdown">Male</option>
+        <option value="female" name="dropdown">Female</option>
+      </select>
+
+      <br><br>
+      <label for="pet">Pet preference:</label>
+        <label for="dog">Dogs</label>
+        <input type="radio" id="dog" name="pet" value="dog">
+        <label for="cat">Cats</label>
+        <input type="radio" id="cat" name="pet" value="cat">
+      
+      <br><br>
+      Vehicle:<br>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <label for="vehicle1"> I have a bike</label><br>
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+      <label for="vehicle2"> I have a car</label><br>
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+      <label for="vehicle3"> I have a boat</label><br><br>
+
+    <textarea name="text" id="text" cols="30" rows="10" placeholder="Write a quick description of yourself."></textarea>
+    <br>
+    <input type="submit" id="submit" value="Submit">
+  </form>
+</body>
+</html>

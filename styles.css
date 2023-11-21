@@ -1,0 +1,32 @@
+#title, #description {
+  text-align: center;
+  color: black;
+}
+
+#name, #email, #number {
+  margin: auto;
+  margin-bottom: 15px;
+  text-align: left;
+  width: 80%;
+}
+
+label {
+  text-align: left;
+}
+
+#survey-form {
+  background: linear-gradient(to right, rgb(4, 4, 77), purple);
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+html {
+  font-family: 'Arial', sans-serif;
+  text-align: left; /* Alterei para alinhar à esquerda */
+  margin: 0;
+  color: white;
+}
